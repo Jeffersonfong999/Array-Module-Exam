@@ -120,7 +120,7 @@ function getRandomColor() {
    return colorInit
 }
 
-// myBonusFunction - Tried to do a charge and release Giant Laser but couldn't figure it out so here is a code that spawns giant beams C:
+// myBonusFunction - Tried to do a charge and release Giant Laser but couldn't figure it out so here is a code that spawns giant beams at any given mouse location C:
 function bigLaser() {
     var y = event.offsetY;
     var x = event.offsetX;
